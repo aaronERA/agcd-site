@@ -40,7 +40,3 @@ To update:
 ## 📄 License
 
 MIT — feel free to fork, remix, or deploy your own cube.
-
----
-
-Want me to generate a `CNAME` file or simulate a GitHub repo structure with this README included?
