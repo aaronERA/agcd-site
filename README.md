@@ -1,42 +1,48 @@
-# AG Cyberdefense — Neon Cube UI
+# AGCD.io
 
-A glowing teal cube interface for AGCD.io, built to showcase cybersecurity services with minimal exposure and maximal visual signal.
+![GitHub deployments](https://img.shields.io/github/deployments/aaronERA/agcd-site/github-pages?label=Status&style=flat-square&color=6366f1)
+![License](https://img.shields.io/badge/License-MIT-30363d?style=flat-square)
 
-## 🔥 Features
+> **"i talk to AI about insecurities."**
 
-- Floating neon cube with interactive links at cardinal directions
-- Responsive layout for desktop and mobile
-- Privacy-first: no trackers, no analytics, no third-party scripts
-- Fully static deployment via GitHub Pages
+A minimalist, single-file identity hub. Designed with a utilitarian "Hugging Face" aesthetic, featuring a deep dark-mode palette, embedded SVGs, and zero external dependencies.
 
-## 🧭 Navigation
+## ⚡ Features
 
-- **North** → About AG Cyberdefense
-- **South** → Contact / Book Consult
-- **East** → Portfolio / Past Work
-- **West** → Security Services
+- **Monolith Architecture:** HTML and CSS combined in a single `index.html` file.
+- **Zero Bloat:** No JavaScript frameworks, no tracking scripts, no external font requests.
+- **Vector Graphics:** All icons are raw SVGs embedded directly in the code.
+- **Responsive:** Fluid "card" layout that adapts to mobile and desktop.
 
-## 🚀 Deployment
+## 🛠️ Tech Stack
 
-Hosted on [GitHub Pages](https://pages.github.com), mapped to [agcd.io](https://agcd.io) via GoDaddy DNS.
+- **Core:** Semantic HTML5 + CSS3 (Flexbox).
+- **Hosting:** GitHub Pages.
+- **DNS:** Custom records pointing `agcd.io` directly to GitHub's CDN.
 
-To update:
-1. Edit `index.html`, `style.css`, or `script.js`
-2. Push changes to `main` branch
-3. GitHub Pages auto-deploys
+## 📂 Structure
 
-## 🔒 Security
+```text
+agcd-site/
+├── CNAME          # DNS pointer for agcd.io
+├── README.md      # Documentation
+└── index.html     # The entire website
 
-- HTTPS enforced via GitHub Pages
-- `.htaccess` rules applied if hosted elsewhere
-- No cookies, no fingerprinting, no external calls
+🎨 Customization
+To add new links, edit the .links container in index.html. Each link is a self-contained block:
+code
+Html
+<a href="URL_HERE" class="link-item">
+    <svg>...</svg>
+    <span class="link-text">Name</span>
+    <span class="arrow">&rarr;</span>
+</a>
+## 📝 License
 
-## 🛠 Stack
+This project is licensed under the **MIT License** — free to use, modify, and distribute, with attribution.  
+See the [LICENSE](./LICENSE) file for the full legal text.
 
-- HTML / CSS / JS
-- Optional: Three.js for future 3D enhancements
-- Editor: CodePen + GitHub
+---
 
-## 📄 License
-
-MIT — feel free to fork, remix, or deploy your own cube.
+© 2026 Aaron Gelera.  
+Released with ❤️ under MIT.  
