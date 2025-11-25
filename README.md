@@ -26,6 +26,7 @@ A minimalist, single-file identity hub. Designed with a utilitarian "Hugging Fac
 agcd-site/
 ├── CNAME          # DNS pointer for agcd.io
 ├── README.md      # Documentation
+├── LICENSE        # MIT License text
 └── index.html     # The entire website
 ```
 
