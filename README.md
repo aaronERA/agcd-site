@@ -27,6 +27,7 @@ agcd-site/
 ├── CNAME          # DNS pointer for agcd.io
 ├── README.md      # Documentation
 └── index.html     # The entire website
+```
 
 🎨 Customization
 To add new links, edit the .links container in index.html. Each link is a self-contained block:
