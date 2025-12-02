@@ -5,7 +5,7 @@
 
 > **"i talk to AI about insecurities."**
 
-A minimalist, single-file identity hub. Designed with a utilitarian "Hugging Face" aesthetic, featuring a deep dark-mode palette, embedded SVGs, and zero external dependencies.
+A minimalist, single-file identity hub. Designed with a eccentric utilitarian aesthetic, featuring a deep dark-mode palette, embedded SVGs, and zero external dependencies.
 
 ## ⚡ Features
 
@@ -30,15 +30,6 @@ agcd-site/
 └── index.html     # The entire website
 ```
 
-🎨 Customization
-To add new links, edit the .links container in index.html. Each link is a self-contained block:
-code
-Html
-<a href="URL_HERE" class="link-item">
-    <svg>...</svg>
-    <span class="link-text">Name</span>
-    <span class="arrow">&rarr;</span>
-</a>
 ## 📝 License
 
 This project is licensed under the **MIT License** — free to use, modify, and distribute, with attribution.  
