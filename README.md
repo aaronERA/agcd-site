@@ -19,6 +19,7 @@ A minimalist, single-file identity hub. Designed with a eccentric utilitarian ae
 - **Core:** Semantic HTML5 + CSS3 (Flexbox).
 - **Hosting:** GitHub Pages.
 - **DNS:** Custom records pointing `agcd.io` directly to GitHub's CDN.
+- **Analytics:** GoatCounter (privacy‑friendly, no cookies).
 
 ## 📂 Structure
 
